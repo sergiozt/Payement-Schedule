@@ -166,7 +166,7 @@ class Schedule
      */
     protected function _dateTime()
     {
-        return new DateTime();
+        return new DateTime('now', new DateTimeZone('America/New_York'));
     }
 
     /**
